@@ -5,7 +5,7 @@ import numpy as np
 # Load the trained model
 model = pickle.load(open("model.pkl", "rb"))
 
-st.set_page_config(page_title="AI Procurement Strategy Engine", layout="centered")
+st.set_page_config(page_title="AI Procurement Strategy Engine By Vedant ", layout="centered")
 
 st.title("📊 AI Procurement Strategy Engine")
 st.write("Predict Kraljic Category using ML Model")
